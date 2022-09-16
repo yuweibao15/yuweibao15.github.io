@@ -6,13 +6,13 @@ export default hopeTheme({
   hostname: "https://vuepress-theme-hope-v2-demo.mrhope.site",
 
   author: {
-    name: "Mr.Hope",
+    name: "Max",
     url: "https://mrhope.site",
   },
 
   iconAssets: "iconfont",
 
-  logo: "/logo.svg",
+  logo: "/assets/Max.JPG",
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
@@ -38,7 +38,7 @@ export default hopeTheme({
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
   blog: {
-    description: "A FrontEnd programmer",
+    description: "Max loves Math",
     intro: "/intro.html",
     medias: {
       Baidu: "https://example.com",
@@ -75,7 +75,9 @@ export default hopeTheme({
 
   encrypt: {
     config: {
-      "/guide/encrypt.html": ["1234"],
+      // "/guide/encrypt.html": ["1234"],
+      "/guide/": ["1234"],
+      "/posts/": ["1234"],
     },
   },
 

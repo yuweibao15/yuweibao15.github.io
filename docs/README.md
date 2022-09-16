@@ -3,10 +3,12 @@ home: true
 layout: Blog
 icon: home
 title: Blog Home
-heroImage: /logo.svg
-heroText: the name of your blog
-tagline: You can put your slogan here
-heroFullScreen: true
+heroImage: /assets/yuwei_photo.JPG
+# heroImageStyle: Record { “width:10%;”}
+heroText: Yuwei Bao 鲍雨薇
+tagline: I am working on my personal website now... please check back later for some real contents.
+# heroFullScreen: true
+bgImage: /assets/galaxy.jpeg
 projects:
   - icon: project
     name: project name
@@ -46,3 +48,13 @@ This is a blog home page demo.
 To use this layout, you should set both `layout: Blog` and `home: true` in the page front matter.
 
 For related configuration docs, please see [blog homepage](https://vuepress-theme-hope.github.io/v2/guide/blog/home/).
+
+<style>
+.hero-image {
+  display: inline-block;
+  border-radius: 50%;
+  /* width: 200px;
+  height: 200px; */
+  background-size: cover;
+}
+</style>
