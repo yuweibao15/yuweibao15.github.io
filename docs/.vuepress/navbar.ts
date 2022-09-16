@@ -2,8 +2,11 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  "/home",
-  { text: "Guide", icon: "creative", link: "/guide/" },
+  // "/home",
+  { text: "Research", icon: "creative", link: "/research/research.md" },
+  { text: "TA", icon: "note", link: "/TA/TA.md" },
+  { text: "CV", icon: "note", link: "/CV/CV.md" },
+  // { text: "Guide", icon: "creative", link: "/guide/" },
   {
     text: "Posts",
     icon: "edit",

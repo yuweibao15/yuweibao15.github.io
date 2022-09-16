@@ -3,8 +3,8 @@ import theme from "./theme.js";
 
 export default defineUserConfig({
   lang: "en-US",
-  title: "Theme Demo",
-  description: "A demo for vuepress-theme-hope",
+  title: "Yuwei Bao's personal website",
+  description: "A place to store my stories.",
 
   base: "/",
 
