@@ -1,4 +1,13 @@
-# Teaching
+---
+title: Teaching Experience
+icon: page
+# This control sidebar order
+order: 1
+category:
+  - About me
+---
+
+<!-- more -->
 
 ## Teaching Assistant
 

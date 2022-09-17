@@ -3,14 +3,14 @@ import { sidebar } from "vuepress-theme-hope";
 export default sidebar([
   "/",
   "/home",
-  "/slides",
-  {
-    icon: "creative",
-    text: "Guide",
-    prefix: "/guide/",
-    link: "/guide/",
-    children: "structure",
-  },
+  // "/slides",
+  // {
+  //   icon: "creative",
+  //   text: "Guide",
+  //   prefix: "/guide/",
+  //   link: "/guide/",
+  //   children: "structure",
+  // },
   {
     text: "Articles",
     icon: "note",
