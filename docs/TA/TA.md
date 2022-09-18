@@ -1,6 +1,7 @@
 ---
 title: Teaching Experience
 icon: page
+star: true
 # This control sidebar order
 order: 1
 category:

@@ -6,7 +6,7 @@ title: Blog Home
 heroImage: /assets/yuwei_photo.JPG
 # heroImageStyle: Record { “width:10%;”}
 heroText: Yuwei Bao 鲍雨薇
-tagline: I am still working on my personal website... please check back later for more updates.
+tagline: Welcome to my personal website!
 heroFullScreen: true
 bgImage: /assets/galaxy.jpeg
 projects:

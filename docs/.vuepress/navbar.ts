@@ -7,6 +7,49 @@ export default navbar([
   { text: "TA", icon: "note", link: "/TA/TA.md" },
   { text: "CV", icon: "blog", link: "/CV/CV.md" },
   // { text: "Guide", icon: "creative", link: "/guide/" },
+  ////////////// TEST ///////////////
+{
+    text: "Notes",
+    icon: "edit",
+    prefix: "/notes/",
+    children: [
+      {
+        text: "Bioinformatics",
+        icon: "edit",
+        prefix: "bioinformatics/",
+        children: [
+          { text: "SRA", icon: "edit", link: "SRA" },
+          // { text: "Article 2", icon: "edit", link: "article2" },
+          // "article3",
+          // "article4",
+        ],
+      },
+      {
+        text: "Statistics",
+        icon: "edit",
+        children: [
+          {
+            text: "Detailed balance condition",
+            icon: "edit",
+            link: "statistics/detailed_balance_condition",
+          },
+          // {
+          //   text: "Article 6",
+          //   icon: "edit",
+          //   link: "article/article6",
+          // },
+          // "article/article7",
+          // "article/article8",
+        ],
+      },
+      // { text: "Article 9", icon: "edit", link: "article9" },
+      // { text: "Article 10", icon: "edit", link: "article10" },
+      // "article11",
+      // "article12",
+    ],
+  },
+
+  ///////////// Original ////////////
   // {
   //   text: "Posts",
   //   icon: "edit",
