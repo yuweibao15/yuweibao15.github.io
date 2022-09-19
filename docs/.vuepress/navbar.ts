@@ -19,7 +19,7 @@ export default navbar([
         prefix: "bioinformatics/",
         children: [
           { text: "SRA", icon: "edit", link: "SRA" },
-          // { text: "Article 2", icon: "edit", link: "article2" },
+          { text: "Cypress", icon: "edit", link: "Cypress" },
           // "article3",
           // "article4",
         ],
