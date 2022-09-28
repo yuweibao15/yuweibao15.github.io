@@ -36,7 +36,7 @@ export default hopeTheme({
   displayFooter: false,
 
   // pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
-  pageInfo: ["Author", "Original", "Date", "Category", "Tag"],
+  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "PageView"],
 
   blog: {
     description: "Math PhD Student at Tulane University",
@@ -57,6 +57,7 @@ export default hopeTheme({
       "/posts/": ["1234"],
     },
   },
+  
 
   plugins: {
     blog: {
@@ -67,7 +68,7 @@ export default hopeTheme({
     // If you don't need comment feature, you can remove following option
     // The following config is for demo ONLY, if you need comment feature, please generate and use your own config, see comment plugin documentation for details.
     // To avoid disturbing the theme developer and consuming his resources, please DO NOT use the following config directly in your production environment!!!!!
-    // comment: {
+    comment: {
     //   /**
     //    * Using Giscus
     //    */
@@ -83,12 +84,12 @@ export default hopeTheme({
     //   // provider: "Twikoo",
     //   // envId: "https://twikoo.ccknbc.vercel.app",
 
-    //   /**
-    //    * Using Waline
-    //    */
-    //   // provider: "Waline",
-    //   // serverURL: "https://vuepress-theme-hope-comment.vercel.app",
-    // },
+      /**
+       * Using Waline
+       */
+      provider: "Waline",
+      serverURL: "https://vuepress-theme-hope-comment.vercel.app",
+    },
 
     mdEnhance: {
       align: true,
