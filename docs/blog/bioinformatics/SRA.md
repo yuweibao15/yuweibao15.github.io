@@ -7,7 +7,6 @@ category:
   - Bioinformatics
 tag:
   - Tool
-#   - Guide
 ---
 
 <!-- more -->

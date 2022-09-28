@@ -33,3 +33,12 @@ Decompress a file from .gz
 ```sh
 gunzip filename.gz
 ```
+
+Add character # to the begging of each line of a file
+```sh
+sed 's/^/#/' file.txt  > new-file.txt
+```
+Alternatively, use the `-i` option with the sed command to edit a file in place. Be careful, as this will overwrite the file with the new changes.
+```sh
+sed -i 's/^/#/' file.txt
+```

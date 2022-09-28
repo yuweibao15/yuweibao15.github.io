@@ -31,4 +31,12 @@ footer: Laissez les bons temps rouler
 <!-- more -->
 
 ## Here is my CV:
-TBA
+<!-- Default PDF viewer:
+<PDF url="/sample.pdf" />
+PDF viewer with initial page 2:
+<PDF url="/sample.pdf" :page="2" /> -->
+
+<!-- PDF viewer without toolbar: -->
+<PDF url="/assets/Yuwei_Bao_CV.pdf" :toolbar="false"/>
+
+

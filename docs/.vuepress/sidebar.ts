@@ -4,13 +4,13 @@ export default sidebar([
   "/",
   "/home",
   // "/slides",
-  // {
-  //   icon: "creative",
-  //   text: "Guide",
-  //   prefix: "/guide/",
-  //   link: "/guide/",
-  //   children: "structure",
-  // },
+  {
+    icon: "creative",
+    text: "Guide",
+    prefix: "/guide/",
+    link: "/guide/",
+    children: "structure",
+  },
   {
     text: "Articles",
     icon: "note",
