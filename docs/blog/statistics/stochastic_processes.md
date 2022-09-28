@@ -133,7 +133,8 @@ To generate a sample, we can run the chain for a sufficient period of time to re
 #### 1.5.3 Kolmogerov Cycle Condition
 :::danger Kolmogerov Cycle Condition
 Consider an irreducible Markov chain with state space $S$. We say that for an irreducible Markov Chain with state space $s$, the cycle condition is satisfied if, given a cycle of states
-$x_0, x_1, \dots, x_{n-1}, x_n$ with $p(x_{i-1},x_i) >0 \quad 1 \leq i \leq n$, we have $$\prod_{i=1}^n p(x_{i-1},x_i) = \prod_{i=1}^n p(x_i,x_{i-1})$$
+$x_0, x_1, \dots, x_{n-1}, x_n$ with $p(x_{i-1},x_i) >0 \quad 1 \leq i \leq n$, we have 
+$$\prod_{i=1}^n p(x_{i-1},x_i) = \prod_{i=1}^n p(x_i,x_{i-1})$$
 :::
 
 ::: tip Theorem 1.16
@@ -178,7 +179,8 @@ $$\frac{1}{n} \sum_{m=1}^n f(x_m) \rightarrow^x \sum_x f(x) \pi(x)$$
 
 
 ::: tip Theorem 1.23 Convergence Theorem
-Suppose $I,S$ hold. Then $$\frac{1}{n} \sum_{m=1}^n p^m(x,y) \rightarrow \pi(y)$$
+Suppose $I,S$ hold. Then 
+$$\frac{1}{n} \sum_{m=1}^n p^m(x,y) \rightarrow \pi(y)$$
 :::
 
 ::: tip Theorem 1.24
@@ -200,11 +202,14 @@ $I_x$ is closed under addition. That is, if $i,j \in I_x$, then $i+j \in I_x$
 :::
 ### 1.9 Exit Distributions
 ::: info Theorem 1.28
-Consider a Markov chain with state space $S$. Let $A$ and $B$ be subsets of $S$, so that $C=S-(A \cup B)$ is finite. Suppose $h(a)=1$ for $a \in A, h(b) = 0$ for $b \in B$, and that for $x \in C$ we have $$h(x) = \sum_y p(x,y) h(y)$$
+Consider a Markov chain with state space $S$. Let $A$ and $B$ be subsets of $S$, so that $C=S-(A \cup B)$ is finite. Suppose $h(a)=1$ for $a \in A, h(b) = 0$ for $b \in B$, and that for $x \in C$ we have 
+$$h(x) = \sum_y p(x,y) h(y)$$
 If $P_x(V_A \wedge V_B < \infty) > 0 \quad \forall x \in C$, then $h(x) = P_x(V_a < V_b)$.
 :::
 ### 1.10 Exit Times
 ::: tip Theorem 1.29
-Let $V_A = \inf \{ n \geq 0; X_n \in A\}$. Suppose $C=S-A$ is finite, and that $P_x(V_A < \infty) >0 \quad \forall x \in C$. If $g(a) = 0 \quad \forall a \in A$, and $\forall x \in C$, we have $$g(x) = 1 + \sum_y p(x,y)g(y)$$ then $g(x) = E_x (V_A)$  
+Let $V_A = \inf \{ n \geq 0; X_n \in A\}$. Suppose $C=S-A$ is finite, and that $P_x(V_A < \infty) >0 \quad \forall x \in C$. If $g(a) = 0 \quad \forall a \in A$, and $\forall x \in C$, we have 
+$$g(x) = 1 + \sum_y p(x,y)g(y)$$ 
+then $g(x) = E_x (V_A)$  
 :::
 
