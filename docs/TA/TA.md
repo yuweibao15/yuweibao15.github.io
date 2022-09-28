@@ -43,5 +43,3 @@ MATH-1005 | [Explorations in Experimental Math](https://summer.tulane.edu/course
 - MATH-1150, Long Calculus II. 2020 Fall
   
 **Role:** Grade weekly homework and exams for three sections of $81+44+9 = 134$ students 
-
-<PDF url="/sample.pdf" />
