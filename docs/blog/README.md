@@ -13,6 +13,7 @@ category:
 - [GATK](bioinformatics/GATK.md)
 - [Enhanced styles](bioinformatics/styles.md)
 - [Linux basics](bioinformatics/linux.md)
+- [Basic shell scripting](bioinformatics/shell_scripting.md)
 
 ## Statistics
 - [Detailed Balance Condition](statistics/detailed_balance_condition.md)
