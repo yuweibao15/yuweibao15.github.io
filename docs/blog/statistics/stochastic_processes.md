@@ -212,4 +212,19 @@ Let $V_A = \inf \{ n \geq 0; X_n \in A\}$. Suppose $C=S-A$ is finite, and that $
 $$g(x) = 1 + \sum_y p(x,y)g(y)$$ 
 then $g(x) = E_x (V_A)$  
 :::
+### 1.11 Infinite State Spaces
+::: danger 
+$x$ is **positive recurrent** if $E_xT_x < \infty$
+
+If a state is recurrent but not positive recurrent, i.e. $P_x(T_x < \infty) = 1$ but $E_x T_x = \infty$, then we say that $x$ is **null recurrent**.
+:::
+
+::: tip Theorem 1.30
+For an irreducible chain the following are equivalent:
+1. Some state is positive recurrent.
+2. There is a stationary distribution $\pi$.
+3. All states are positive recurrent.
+:::
+
+
 
