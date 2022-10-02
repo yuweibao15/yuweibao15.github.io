@@ -54,6 +54,10 @@ gatk Mutect2 \
     -L chr17plus.interval_list \
     -O 3_HG00190.vcf.gz
 ```
+:::tip Comments on select parameters
+- One option that is not used here is to include a germline resource with `--germline-resource`. 
+- An optional parameter `--max-population-af` (default 0.01) defines the cutoff for allele frequencies.
+:::
 
 2. Second, collate all the normal VCFs into a single callset with `CreateSomaticPanelOfNormals`.
 ```sh
