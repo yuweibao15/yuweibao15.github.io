@@ -7,10 +7,13 @@ category:
 ---
 
 ## Bioinformatics
-
+### GATK
+- [GATK Data Pre-processing](bioinformatics/GATK_preprocessing.md)
+- [GATK Somatic Short Variant Discovery](bioinformatics/GATK_SNV.md)
+- [GATK Somatic copy number variant discovery (CNVs)](bioinformatics/GATK_CNV.md)
+### Other
 - [SRA](bioinformatics/SRA.md)
 - [Cypress](bioinformatics/Cypress.md)
-- [GATK](bioinformatics/GATK.md)
 - [Enhanced styles](bioinformatics/styles.md)
 - [Linux basics](bioinformatics/linux.md)
 - [Basic shell scripting](bioinformatics/shell_scripting.md)
