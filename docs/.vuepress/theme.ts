@@ -23,7 +23,7 @@ export default hopeTheme({
     red: "#f26d6d",
     green: "#3eaf7c",
     orange: "#fb9b5f",
-    light_pink: "#fb99ee",
+    // light_pink: "#fb99ee",
   },
   // navbar
   navbar: navbar,
@@ -44,7 +44,7 @@ export default hopeTheme({
     medias: {
       Linkedin: "https://www.linkedin.com/in/yuwei-bao-571b1b168/",
       GitHub: "https://github.com/yuweibao15/",
-      // Email: "https://example.com",
+      Email: "mailto:ybao2@tulane.edu",
     },
     sidebarDisplay: "always",
 
