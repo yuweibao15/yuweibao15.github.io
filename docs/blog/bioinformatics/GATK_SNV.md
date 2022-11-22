@@ -139,6 +139,39 @@ tumor.bam
 2. Second, navigate IGV to certain locus.
 3. Third, tweak IGV settings that aid in visualizing reassembled alignments.
 
+## Another tutorial
+1. `Mutect2`
+```sh
+gatk Mutect2 -R ref.fasta \
+        -L intervals.interval_list \
+        -I tumor.bam \
+        -germline-resource af-only-gnomad.vcf \
+        -pon panel_of_normals.vcf   \
+        --f1r2-tar-gz f1r2.tar.gz \
+        -O unfiltered.vcf
+```
+2. `LearnReadOrientationModel`
+```sh
+gatk LearnReadOrientationModel -I f1r2.tar.gz \
+        -O read-orientation-model.tar.gz
+```
+3. Run `GetPileupSummaries` to summarize read support for a set number of known variant sites.
+```sh
+gatk GetPileupSummaries \
+    -I tumor.bam \
+    -V chr17_small_exac_common_3_grch38.vcf.gz \
+    -L chr17_small_exac_common_3_grch38.vcf.gz \
+    -O getpileupsummaries.table
+```
+where `-L variants.vcf` when specifying a VCF file containing variant records; their genomic coordinates will be used as intervals. [^GATK_interval]
+4. Estimate contamination with CalculateContamination.
+```sh
+gatk CalculateContamination \
+        -I getpileupsummaries.table \
+        -tumor-segmentation segments.table \
+        -O calculatecontamination.table
+```
+
 <style>
 pre {
   background-color:#38393d;
@@ -149,3 +182,4 @@ pre {
 </style>
 
 [^GATK_SNV]:https://gatk.broadinstitute.org/hc/en-us/articles/360035889791?id=11136
+[^GATK_interval]: https://gatk.broadinstitute.org/hc/en-us/articles/360035531852-Intervals-and-interval-lists

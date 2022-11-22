@@ -17,6 +17,7 @@ category:
 - [Enhanced styles](bioinformatics/styles.md)
 - [Linux basics](bioinformatics/linux.md)
 - [Basic shell scripting](bioinformatics/shell_scripting.md)
+- [Different variant callers](bioinformatics/variant_callers.md)
 
 ## Statistics
 - [Detailed Balance Condition](statistics/detailed_balance_condition.md)

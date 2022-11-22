@@ -22,5 +22,9 @@ Understanding the Simple Covid-19 Multi-compartmental Model. (2) Examining the E
 and Behavior Changes Towards Covid-19 Pandemic in New Orleans. Mentor: Dr. James Mac Hyman
 3. Graduate Student Mathematical Modeling Camp (GSMMC) at University of Delaware: Collaborated with others on the project: [Mathematical Models and 
 Simulations of Reconfigurable Flow Networks: Erosion, Deposition, Filtration, and Growth.](https://www.mathsci.udel.edu/content-sub-site/Documents/GSMMC_reports/SanaeiReport.pdf) Mentor: Dr. Pejman Sanaei
-## Publications
-No publication yet...TBA
+
+## Research talks
+Time | Event | Title  
+---|---|---
+11/18/2022 | [LA ASA Chapter Meeting](https://math.louisiana.edu/about-us/professional-organizations/louisiana-asa-chapter) | Smooth coalescent prior for scalable Bayesian phylogenetic demographic inference
+3/15/2022 | Tulane Math Graduate Student Colloquium | Likelihood calculations on a phylogenetic tree
