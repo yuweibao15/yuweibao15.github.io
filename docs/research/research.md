@@ -26,5 +26,7 @@ Simulations of Reconfigurable Flow Networks: Erosion, Deposition, Filtration, an
 ## Research talks
 Time | Event | Title  
 ---|---|---
+3/10/2023 | [Scientific Computing Around Louisiana (SCALA)](http://www.math.tulane.edu/scala/index.html) | Smooth Skygrid: Bayesian coalescent-based inference of population dynamics
+2/25/2023 | [Math for All in Nola](https://sites.google.com/view/mathforallnola) | Bayesian Coalescent-Based Model for Inferring Population Dynamics
 11/18/2022 | [LA ASA Chapter Meeting](https://math.louisiana.edu/about-us/professional-organizations/louisiana-asa-chapter) | Smooth coalescent prior for scalable Bayesian phylogenetic demographic inference
-3/15/2022 | Tulane Math Graduate Student Colloquium | Likelihood calculations on a phylogenetic tree
+3/15/2022 | [Tulane Math Graduate Student Colloquium](https://sites.google.com/view/tulanemath/home) | Likelihood calculations on a phylogenetic tree
