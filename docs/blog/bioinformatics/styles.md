@@ -30,4 +30,4 @@ pre {
 }
 </style>
 
-[^footnote]: [Wenkan's blog](https://karobben.github.io/2021/02/11/Blog/hexo_icarus/)
+[^footnote]: [Karobben's blog](https://karobben.github.io/2021/02/11/Blog/hexo_icarus/)

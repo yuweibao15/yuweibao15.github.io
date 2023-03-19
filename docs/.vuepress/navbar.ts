@@ -6,6 +6,7 @@ export default navbar([
   { text: "Research", icon: "creative", link: "/research/research.md" },
   { text: "TA", icon: "note", link: "/TA/TA.md" },
   { text: "CV", icon: "blog", link: "/CV/CV.md" },
+  { text: "Service", icon: "like", link: "/service/service.md" },
   { text: "Blog", icon: "edit", link: "/blog/" },
   // { text: "Guide", icon: "creative", link: "/guide/" },
 

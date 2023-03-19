@@ -7,12 +7,15 @@ category:
 ---
 
 ## Bioinformatics
-### GATK
+
+### Variant calling related
+#### GATK
 - [GATK Data Pre-processing](bioinformatics/GATK_preprocessing.md)
 - [GATK Somatic Short Variant Discovery](bioinformatics/GATK_SNV.md)
 - [GATK Somatic copy number variant discovery (CNVs)](bioinformatics/GATK_CNV.md)
 - [Run GATK older version by docker images](bioinformatics/docker.md)
-
+#### From fastqs to bam
+- [Quality control for fastqs](bioinformatics/fastqc_fastp.md)
 ### Other
 - [SRA](bioinformatics/SRA.md)
 - [Cypress](bioinformatics/Cypress.md)
