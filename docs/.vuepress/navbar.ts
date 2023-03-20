@@ -4,7 +4,7 @@ export default navbar([
   "/",
   // "/home",
   { text: "Research", icon: "creative", link: "/research/research.md" },
-  { text: "TA", icon: "note", link: "/TA/TA.md" },
+  { text: "Teach", icon: "note", link: "/teach/teach.md" },
   { text: "CV", icon: "blog", link: "/CV/CV.md" },
   { text: "Service", icon: "like", link: "/service/service.md" },
   { text: "Blog", icon: "edit", link: "/blog/" },
