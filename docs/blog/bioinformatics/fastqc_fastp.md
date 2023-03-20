@@ -65,11 +65,14 @@ done
 ```
 
 ### 1.5 Summarize results from FastQC
+
+:::danger Copyright: Karobben's bolg: https://karobben.github.io/
 This part was created by my excellent colleague Karobben [^Karobben]. 
 In the result html of `FastQC`, we can see a graph like this [^FastQC]:
 
 ![FastQC_graph](./fig/fastqc_sample_output.png)
 Karobeen implemented tools like web scrapping, R, and Python to save our time of looking at individual quality control html result produced by `FastQC`.
+
 
 #### A. Create a csv storing the information
 ```sh
@@ -139,7 +142,7 @@ for Sample in [i for i in os.listdir() if "fastqc.html" in i]:
 These sequences can be used to BLAST [^BLAST] to determine potential contamination cause.
 
 For how the results look like and more bioinformatics skills, check [Karobben's bolg](https://karobben.github.io/)
-
+:::
 
 ### 2. Use fastp to cut bad reads and trim adapters 
 ```sh
@@ -151,7 +154,7 @@ out=fastp_fq
 
 for i in $(cat sample_label_dict.txt)
 do SAMPLE=$(echo $i | cut -d ":" -f 1)
-   sed "s/Hi/$SAMPLE\_fq_QC/" Model.sh >> Shfiles/$SAMPLE\_fp.sh
+   sed "s/Hi/$SAMPLE\_fq/" Model.sh >> Shfiles/$SAMPLE\_fp.sh
    echo fastp -i $FQ_DB/$SAMPLE\_1.fq.gz -I $FQ_DB/$SAMPLE\_2.fq.gz -o $out/$i\_1.fq.gz -O $out/$SAMPLE\_2.fq.gz > Shfiles/$SAMPLE\_fp.sh
    echo mv fastp.html $out/$SAMPLE\_fastp.html > Shfiles/$SAMPLE\_fp.sh
    echo mv fastp.json $out/$SAMPLE\_fastp.json > Shfiles/$SAMPLE\_fp.sh
