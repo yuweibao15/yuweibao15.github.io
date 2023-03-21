@@ -42,3 +42,8 @@ Alternatively, use the `-i` option with the sed command to edit a file in place.
 ```sh
 sed -i 's/^/#/' file.txt
 ```
+
+Delete empty files in current directory
+```sh
+find . -type f -empty -print -delete
+```

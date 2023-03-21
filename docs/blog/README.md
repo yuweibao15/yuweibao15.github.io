@@ -21,6 +21,7 @@ category:
 - [Filter bam using gatk](bioinformatics/filter_bam_gatk.md)
 #### Other
 - [Different variant callers](bioinformatics/variant_callers.md)
+- [GEM: Reference genome mappability](bioinformatics/GEM_mappability.md)
 ### Toolbox
 - [SRA: Download data from NCBI](bioinformatics/SRA.md)
 - [Cypress: Tulane HPC](bioinformatics/Cypress.md)
