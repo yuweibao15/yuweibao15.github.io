@@ -16,6 +16,9 @@ category:
 - [Run GATK older version by docker images](bioinformatics/docker.md)
 #### From fastqs to bam
 - [Quality control for fastqs](bioinformatics/fastqc_fastp.md)
+#### Filter bam
+- [Filter bam using samtools](bioinformatics/filter_bam_samtools.md)
+- [Filter bam using gatk](bioinformatics/filter_bam_gatk.md)
 #### Other
 - [Different variant callers](bioinformatics/variant_callers.md)
 ### Toolbox
