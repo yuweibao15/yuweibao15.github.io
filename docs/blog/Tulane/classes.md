@@ -28,6 +28,7 @@ Semester | Term | Course Title | Instructor
 2022 Spring | CMPS-6630 | Computational Biology & Bioinformatics | Dr. Ramgopal Mettu
 2022 Fall | MATH-7030 | Stochastic Processes | Dr. Michelle Lacey
 2022 Fall | MATH-7980 | Bayesian Phylogenetics (reading course) | Dr. Xiang Ji
+2023 Spring | MATH-7770 | Modern Methods in Statistical Sampling | Dr. Nathan E. Glatt-Holtz
 
 ## Exams
 Here are the qualifying exams I have passed:
