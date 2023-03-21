@@ -16,13 +16,18 @@ category:
 - [Run GATK older version by docker images](bioinformatics/docker.md)
 #### From fastqs to bam
 - [Quality control for fastqs](bioinformatics/fastqc_fastp.md)
-### Other
-- [SRA](bioinformatics/SRA.md)
-- [Cypress](bioinformatics/Cypress.md)
-- [Enhanced styles](bioinformatics/styles.md)
+#### Other
+- [Different variant callers](bioinformatics/variant_callers.md)
+### Toolbox
+- [SRA: Download data from NCBI](bioinformatics/SRA.md)
+- [Cypress: Tulane HPC](bioinformatics/Cypress.md)
+- [sshfs: Mount a remote server](bioinformatics/sshfs.md)
+### Linux
 - [Linux basics](bioinformatics/linux.md)
 - [Basic shell scripting](bioinformatics/shell_scripting.md)
-- [Different variant callers](bioinformatics/variant_callers.md)
+
+### Format
+- [Enhanced styles](bioinformatics/styles.md)
 
 
 ## Statistics
