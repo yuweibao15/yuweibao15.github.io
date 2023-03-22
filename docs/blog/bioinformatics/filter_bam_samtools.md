@@ -36,14 +36,35 @@ samtools markdup [-l length] [-r] [-s] [-T] [-S] in.algsort.bam out.bam
 
 ### 3. sort: [^sort]
 Sort alignments by leftmost coordinates, or by read name when -n is used. An appropriate @HD-SO sort order header tag will be added or an existing one updated if necessary.
+#### Usage
 ```sh
 samtools sort [-l level] [-u] [-m maxMem] [-o out.bam] [-O format] [-M] [-K kmerLen] [-n] [-t tag] [-T tmpprefix] [-@ threads] [in.sam|in.bam|in.cram]
 ```
+Parameters:
+```js
+-l INT     Set compression level, from 0 (uncompressed) to 9 (best) 
+Set the desired compression level for the final output file, ranging from 0 (uncompressed) or 1 (fastest but minimal compression) to 9 (best compression but slowest to write), similarly to gzip(1)'s compression level setting.
 
+-@ INT
+Set number of sorting and compression threads. By default, operation is single-threaded.
+
+-o FILE
+Write the final sorted output to FILE, rather than to standard output.
+```
 ### 4. view [^view]
 View and convert SAM/BAM/CRAM files
+#### Usage
 ```sh
-samtools view [options] in.sam|in.bam|in.cram [region...]
+samtools view [options] <in.bam>|<in.sam>|<in.cram> [region ...]
+```
+
+Parameters
+```js
+-S           Ignored (input format is auto-detected)
+-b, --bam                  Output BAM
+-@, --threads INT
+               Number of additional threads to use [0]
+-o, --output FILE          Write output to FILE [standard output]
 ```
 
 [^samtools]:http://www.htslib.org/doc/1.15/samtools.html
