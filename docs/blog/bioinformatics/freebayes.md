@@ -9,7 +9,7 @@ tag:
   - Tool
 ---
 
-Here, we are learning how to use `freebayes` to call SNVs and further to filter variants using `vcflib` and `vt` following Nick Riddiford 21 supplementary methods [^GR].
+Here, we are learning how to use `freebayes` [^freebayes] to call SNVs and further to filter variants using `vcflib` [^vcflib] and `vt` [^vt] following Nick Riddiford 21 supplementary methods [^GR].
 
 ## 1. freebayes (v1.3.6) [^freebayes]
 ### Purpose
