@@ -67,6 +67,10 @@ Parameters
 -o, --output FILE          Write output to FILE [standard output]
 ```
 
+### Other people's realated blogs
+Dave Tang: [Learning the BAM format](https://davetang.github.io/learning_bam_file/)
+
+
 [^samtools]:http://www.htslib.org/doc/1.15/samtools.html
 [^fixmate]:http://www.htslib.org/doc/1.15/samtools-fixmate.html
 [^sort]:http://www.htslib.org/doc/1.15/samtools-sort.html
