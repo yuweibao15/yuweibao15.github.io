@@ -1,1 +1,0 @@
-import{_ as e}from"./_plugin-vue_export-helper.cdc0426e.js";import{o as t,c as o,b as n}from"./app.1dd96a97.js";const c={},r=n("p",null,"What tools can we use to do numerical integration?",-1),a=[r];function s(_,i){return t(),o("div",null,a)}const d=e(c,[["render",s],["__file","integration.html.vue"]]);export{d as default};
