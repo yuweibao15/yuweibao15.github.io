@@ -23,13 +23,19 @@ category:
 - [Different variant callers](bioinformatics/variant_callers.md)
 - [GEM: Reference genome mappability](bioinformatics/GEM_mappability.md)
 - [freebayes: Bayesian genetic variant detector](bioinformatics/freebayes.md)
+- [SomaticSniper: SNVs and short Indel caller](bioinformatics/SomaticSniper.md)
+- [Strelka: SNVs and short Indel caller](bioinformatics/Strelka.md)
 ### Toolbox
 - [SRA: Download data from NCBI](bioinformatics/SRA.md)
 - [Cypress: Tulane HPC](bioinformatics/Cypress.md)
 - [sshfs: Mount a remote server](bioinformatics/sshfs.md)
-### Linux
+
+### Programming
+#### Linux
 - [Linux basics](bioinformatics/linux.md)
 - [Basic shell scripting](bioinformatics/shell_scripting.md)
+#### Python
+- [Python scipy.integrate for numerical integration](coding/Python/integration.md)
 
 ### Format
 - [Enhanced styles](bioinformatics/styles.md)
