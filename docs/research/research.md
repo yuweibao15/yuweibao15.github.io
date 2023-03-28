@@ -26,7 +26,22 @@ Simulations of Reconfigurable Flow Networks: Erosion, Deposition, Filtration, an
 ## Research talks
 Time | Event | Title  
 ---|---|---
+6/21/2023 | [Evolution Conference](https://www.evolutionmeetings.org/) | Coalescent Bayesian tree prior 
 3/10/2023 | [Scientific Computing Around Louisiana (SCALA)](http://www.math.tulane.edu/scala/index.html) | Smooth Skygrid: Bayesian coalescent-based inference of population dynamics
 2/25/2023 | [Math for All in Nola](https://sites.google.com/view/mathforallnola) | Bayesian Coalescent-Based Model for Inferring Population Dynamics
 11/18/2022 | [LA ASA Chapter Meeting](https://math.louisiana.edu/about-us/professional-organizations/louisiana-asa-chapter) | Smooth coalescent prior for scalable Bayesian phylogenetic demographic inference
 3/15/2022 | [Tulane Math Graduate Student Colloquium](https://sites.google.com/view/tulanemath/home) | Likelihood calculations on a phylogenetic tree
+
+## Professional memberships
+Time | Name 
+---|---
+Since 2023 | [Society for the Study of Evolution (SSE)](https://www.evolutionsociety.org/)
+Since 2023 | [Society of Systematic Biologists (SSB)](https://www.systbio.org/)
+Since 2022 | [American Mathematical Association of Two-Year Colleges (AMATYC)](https://www.texmatyc.org/index.html)
+Since 2020 | [American Mathematical Society (AMS)](https://www.ams.org/home/page)
+Since 2020 | [Society for Industrial and Applied Mathematics (SIAM)](https://www.siam.org/)
+Since 2020 | [Association for Women in Mathematics (AWM)](https://awm-math.org/)
+Since 2019 | [Mathematical Association of America (MAA)](https://www.maa.org/)
+Since 2017 | [Kappa Mu Epsilon (KME) - National Mathematics Honor Society](https://www.kappamuepsilon.org/)
+Since 2017 | [Alpha Phi Omega (APO) - National Service Fraternity ](https://apo.org/)
+
