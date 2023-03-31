@@ -9,6 +9,7 @@ category:
 ## Bioinformatics
 
 ### Variant calling related
+**I. Single nucleotide variants and short insertions/deletions (SNVs and INDELs)**
 #### GATK
 - [GATK Data Pre-processing](bioinformatics/GATK_preprocessing.md)
 - [GATK Somatic Short Variant Discovery](bioinformatics/GATK_SNV.md)
@@ -25,6 +26,13 @@ category:
 - [freebayes: Bayesian genetic variant detector](bioinformatics/freebayes.md)
 - [SomaticSniper: SNVs and short Indel caller](bioinformatics/SomaticSniper.md)
 - [Strelka: SNVs and short Indel caller](bioinformatics/Strelka.md)
+
+**II. Structural variants (SV)**
+#### Tools
+- [LUMPY: SV caller](bioinformatics/Lumpy.md)
+- [DELLY: SV caller](bioinformatics/Delly.md)
+- [svtools: comprehensive utilities for SV](bioinformatics/svtools.md)
+
 ### Toolbox
 - [SRA: Download data from NCBI](bioinformatics/SRA.md)
 - [Cypress: Tulane HPC](bioinformatics/Cypress.md)
