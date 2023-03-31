@@ -35,6 +35,7 @@ Time | Event | Title
 ## Professional memberships
 Time | Name 
 ---|---
+Since 2023 | [American Statistical Association (ASA)](https://www.amstat.org/)
 Since 2023 | [Society for the Study of Evolution (SSE)](https://www.evolutionsociety.org/)
 Since 2023 | [Society of Systematic Biologists (SSB)](https://www.systbio.org/)
 Since 2022 | [American Mathematical Association of Two-Year Colleges (AMATYC)](https://www.texmatyc.org/index.html)
