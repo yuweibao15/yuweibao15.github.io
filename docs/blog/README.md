@@ -57,6 +57,7 @@ category:
 - [Gibss sampler](statistics/gibbs_sampler.md)
 
 ### Research related papers
+- [Statistical phylogenetics study resources](statistics/paper/resources.md)
 - [2020Ji - Gradients Do Grow on Trees: A Linear-Time O(N)-Dimensional Gradient for Statistical Phylogenetics](statistics/paper/2020Ji_Gradients.md)
 
 ## Tulane footprint
