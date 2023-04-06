@@ -21,7 +21,7 @@ export PATH=$PWD/nb_distribution/:$PATH
 novoBreak
 ```
 
-<pre>
+```js
 novoBreak - a tool for discovering somatic sv breakpoints
 Auther: Zechen Chong <zchong@mdanderson.org> 
 Version: 1.1 (r20151007)
@@ -36,7 +36,7 @@ Options:
   -o <string>    Output kmer
   -g <int>       Output germline events [0]
   -m <int>       Minimum kmer count regarded as novo kmers [3]****
-</pre>
+```
 
 ## Usage
 ```sh
@@ -67,7 +67,7 @@ When we look into the `PATH_TO_nb_distribution` folder, we can see that there ar
 
 Error message: 
 <pre>
-error while loading shared libraries: libncurses.so.5: cannot open shared object file: No such file or directory`
+error while loading shared libraries: libncurses.so.5: cannot open shared object file: No such file or directory
 </pre>
 
 ### Solution
