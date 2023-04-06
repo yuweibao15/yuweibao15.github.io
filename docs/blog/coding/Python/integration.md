@@ -90,23 +90,6 @@ area
 
 #### 4. Something I learned in practice with double integrals
 In practice, I found that we should define the boundaries differently based on either it is non-constant integration or constant integration.
-For example,
-A. **With non-constant integration bounds**
-We can refer to the previous section. Notice, something **doesn't work** here will be:
-```py
-from scipy import integrate
-def f(x,y):
-    return x*y
-
-I = integrate.nquad(f, [[0,0.5],[0,1-2*y]])
-print(I)
-```
-<pre>
-Traceback (most recent call last):
-  File "PATH_TO/test.py", line 5, in <module>
-    I = integrate.nquad(f, [[0,0.5],[0,1-2*y]])
-NameError: name 'y' is not defined
-</pre>
 
 ### References
 1. Scipy manual [^manual]
