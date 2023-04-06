@@ -3,7 +3,7 @@ title: Blog
 index: false
 icon: creative
 category:
-  - Guide
+  - Study notes
 ---
 
 ## Bioinformatics
@@ -32,6 +32,7 @@ category:
 - [LUMPY: SV caller](bioinformatics/Lumpy.md)
 - [DELLY: SV caller](bioinformatics/Delly.md)
 - [svtools: comprehensive utilities for SV](bioinformatics/svtools.md)
+- [novoBreak: a structural variant breakpoint detection tool](bioinformatics/novoBreak.md)
 
 ### Toolbox
 - [SRA: Download data from NCBI](bioinformatics/SRA.md)
@@ -53,6 +54,7 @@ category:
 - [Detailed Balance Condition](statistics/detailed_balance_condition.md)
 - [Stochastic Processes](statistics/stochastic_processes.md)
 - [Stochastic HW2 Graph](statistics/stochastic_HW2.md)
+- [Gibss sampler](statistics/gibbs_sampler.md)
 
 ### Research related papers
 - [2020Ji - Gradients Do Grow on Trees: A Linear-Time O(N)-Dimensional Gradient for Statistical Phylogenetics](statistics/paper/2020Ji_Gradients.md)
