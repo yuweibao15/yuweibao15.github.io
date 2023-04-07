@@ -123,5 +123,53 @@ lumpy \
 ```
 :::
 
+## Understand output
+Lumpy output a vcf file. Here is an example output:
+```js
+##fileformat=VCFv4.2
+##source=LUMPY
+......(Many headers include INFO, ALT and FORMAT, see below Parameters)......
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	P7
+2L	654659	1	N	<DEL>	.	.	SVTYPE=DEL;STRANDS=+-:4;SVLEN=-520;END=655179;CIPOS=-10,518;CIEND=-498,9;CIPOS95=-3,161;CIEND95=-163,3;IMPRECISE;SU=4;PE=4;SR=0	GT:SU:PE:SR	./.:4:4:0
+2L	163755	2	N	<DEL>	.	.	SVTYPE=DEL;STRANDS=+-:4;SVLEN=-308;END=164063;CIPOS=-10,306;CIEND=-146,9;CIPOS95=-3,81;CIEND95=-70,3;IMPRECISE;SU=4;PE=4;SR=0	GT:SU:PE:SR	./.:4:4:0
+2L	491266	3	N	<DEL>	.	.	SVTYPE=DEL;STRANDS=+-:5;SVLEN=-502;END=491768;CIPOS=-10,500;CIEND=-444,9;CIPOS95=-3,107;CIEND95=-108,3;IMPRECISE;SU=5;PE=5;SR=0	GT:SU:PE:SR	./.:5:5:0
+2L	606171	4	N	<DEL>	.	.	SVTYPE=DEL;STRANDS=+-:4;SVLEN=-243;END=606414;CIPOS=-10,60;CIEND=-242,9;CIPOS95=-2,42;CIEND95=-77,3;IMPRECISE;SU=4;PE=4;SR=0	GT:SU:PE:SR	./.:4:4:0
+```
+
+:::tip Parameters
+```js
+##INFO=<ID=SVTYPE,Number=1,Type=String,Description="Type of structural variant">
+##INFO=<ID=SVLEN,Number=.,Type=Integer,Description="Difference in length between REF and ALT alleles">
+##INFO=<ID=END,Number=1,Type=Integer,Description="End position of the variant described in this record">
+##INFO=<ID=STRANDS,Number=.,Type=String,Description="Strand orientation of the adjacency in BEDPE format (DEL:+-, DUP:-+, INV:++/--)">
+##INFO=<ID=IMPRECISE,Number=0,Type=Flag,Description="Imprecise structural variation">
+##INFO=<ID=CIPOS,Number=2,Type=Integer,Description="Confidence interval around POS for imprecise variants">
+##INFO=<ID=CIEND,Number=2,Type=Integer,Description="Confidence interval around END for imprecise variants">
+##INFO=<ID=CIPOS95,Number=2,Type=Integer,Description="Confidence interval (95%) around POS for imprecise variants">
+##INFO=<ID=CIEND95,Number=2,Type=Integer,Description="Confidence interval (95%) around END for imprecise variants">
+##INFO=<ID=MATEID,Number=.,Type=String,Description="ID of mate breakends">
+##INFO=<ID=EVENT,Number=1,Type=String,Description="ID of event associated to breakend">
+##INFO=<ID=SECONDARY,Number=0,Type=Flag,Description="Secondary breakend in a multi-line variants">
+##INFO=<ID=SU,Number=.,Type=Integer,Description="Number of pieces of evidence supporting the variant across all samples">
+##INFO=<ID=PE,Number=.,Type=Integer,Description="Number of paired-end reads supporting the variant across all samples">
+##INFO=<ID=SR,Number=.,Type=Integer,Description="Number of split reads supporting the variant across all samples">
+##INFO=<ID=BD,Number=.,Type=Integer,Description="Amount of BED evidence supporting the variant across all samples">
+##INFO=<ID=EV,Number=.,Type=String,Description="Type of LUMPY evidence contributing to the variant call">
+##INFO=<ID=PRPOS,Number=.,Type=String,Description="LUMPY probability curve of the POS breakend">
+##INFO=<ID=PREND,Number=.,Type=String,Description="LUMPY probability curve of the END breakend">
+##ALT=<ID=DEL,Description="Deletion">
+##ALT=<ID=DUP,Description="Duplication">
+##ALT=<ID=INV,Description="Inversion">
+##ALT=<ID=DUP:TANDEM,Description="Tandem duplication">
+##ALT=<ID=INS,Description="Insertion of novel sequence">
+##ALT=<ID=CNV,Description="Copy number variable region">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=SU,Number=1,Type=Integer,Description="Number of pieces of evidence supporting the variant">
+##FORMAT=<ID=PE,Number=1,Type=Integer,Description="Number of paired-end reads supporting the variant">
+##FORMAT=<ID=SR,Number=1,Type=Integer,Description="Number of split reads supporting the variant">
+##FORMAT=<ID=BD,Number=1,Type=Integer,Description="Amount of BED evidence supporting the variant">
+```
+:::
+
 [^github]:https://github.com/arq5x/lumpy-sv
 [^gatk_readgroup]:https://gatk.broadinstitute.org/hc/en-us/articles/360035890671-Read-groups
