@@ -33,6 +33,7 @@ category:
 - [DELLY: SV caller](bioinformatics/Delly.md)
 - [svtools: comprehensive utilities for SV](bioinformatics/svtools.md)
 - [novoBreak: a structural variant breakpoint detection tool](bioinformatics/novoBreak.md)
+- [svParser: a tool to deal with SV output vcf](bioinformatics/svParser.md)
 
 ### Toolbox
 - [SRA: Download data from NCBI](bioinformatics/SRA.md)
