@@ -90,7 +90,38 @@ area
 
 #### 4. Something I learned in practice with double integrals
 In practice, I found that we should define the boundaries differently based on either it is non-constant integration or constant integration.
+A. **With non-constant integration bounds**
+We can refer to the previous section. Notice, something **doesn't work** here will be:
+```py
+from scipy import integrate
+def f(x,y):
+    return x*y
 
+I = integrate.nquad(f, [[0,0.5],[0,1-2*y]])
+print(I)
+```
+The error message is:
+```js
+Traceback (most recent call last):
+  File "PATH_TO/test.py", line 5, in <module>
+    I = integrate.nquad(f, [[0,0.5],[0,1-2*y]])
+NameError: name 'y' is not defined
+```
+
+B. **With constant integration bounds**
+To calculate $$I=\int_0^\infty \int_1^\infty \frac{e^{-xt}}{t^n} \quad dt dx = \frac{1}{n}$$
+```py
+from scipy import integrate
+N = 5
+def f(t, x):
+   return np.exp(-x*t) / t**N
+
+integrate.nquad(f, [[1, np.inf],[0, np.inf]])
+```
+<pre>
+(0.20000000000002294, 1.2239614263187945e-08)
+</pre>
+Notice, something **doesn't work** here will be using Section 3 [Method 1].
 ### References
 1. Scipy manual [^manual]
 2. Numerical Methods using Python (scipy) [^fangohr]
