@@ -43,6 +43,13 @@ Pauling, L., & Zuckerkandl, E. (1963). Chemical paleogenetics. Acta Chem. Scand,
 
 Sullivan, J., & Swofford, D. (1997). Are Guinea Pigs Rodents?? The Importance of Adequate Models in Molecular Phylogenetics. Journal of Mammalian Evolution, 4, 77–86.
 
+## Other awesome recourses
+1. [Joe Felsenstein's courses](https://felsenst.github.io/courses.html)
+2. [2016 SISG Molecular Phylogenetics Module](https://evolution.gs.washington.edu/sisg/2016/)
+3. [Duke Bayesian Methods Class](http://www2.stat.duke.edu/~rcs46/bayes17.html)
+4. [2019 Bodega Applied Phylogenetics Workshop](http://treethinkers.org/2019-bodega-applied-phylogenetics-workshop-schedule/)
+5. [Paul Lewis’s Primer on Phylogenetics](http://phyloseminar.org/)
+
 
 [^blog]:http://treethinkers.org/update-must-read-papers-for-graduate-students/
 [^BT]:http://thomsonlab.org/people/bob-thomson/
