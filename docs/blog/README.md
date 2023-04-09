@@ -56,6 +56,7 @@ category:
 - [Stochastic Processes](statistics/stochastic_processes.md)
 - [Stochastic HW2 Graph](statistics/stochastic_HW2.md)
 - [Gibss sampler](statistics/gibbs_sampler.md)
+- [Kingman’s coalescent](statistics/felsenstein_coalescent.md)
 
 ### Research related papers
 - [Statistical phylogenetics study resources](statistics/paper/resources.md)
