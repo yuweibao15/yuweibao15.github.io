@@ -43,6 +43,20 @@ Pauling, L., & Zuckerkandl, E. (1963). Chemical paleogenetics. Acta Chem. Scand,
 
 Sullivan, J., & Swofford, D. (1997). Are Guinea Pigs Rodents?? The Importance of Adequate Models in Molecular Phylogenetics. Journal of Mammalian Evolution, 4, 77–86.
 
+## Papers related to HMM
+It is recommended by Joe Felsenstein [^HMM] in 2016:
+
+Yang, Z. 1994. Maximum-likelihood estimation of phylogeny from DNA sequences when substitution rates differ over sites. Molecular Biology and Evolution 10: 1396-1401. [Use of gamma distribution of rate variation in
+ML phylogenies]
+
+Yang, Z. 1994. Maximum likelihood phylogenetic estimation from DNA sequences with variable rates over sites: approximate methods. Journal of Molecular Evolution 39: 306-314. [Approximating gamma distribution in ML phylogenies by an HMM]
+
+Yang, Z. 1995. A space-time process model for the evolution of DNA sequences. Genetics 139: 993-1005. [Allowing for autocorrelated rates along the molecule using an HMM for ML phylogenies]
+
+Felsenstein, J. and G. A. Churchill. 1996. A Hidden Markov Model approach to variation among sites in rate of evolution Molecular Biology and Evolution 13: 93-104. [HMM approach to evolutionary rate variation]
+
+Thorne, J. L., N. Goldman, and D. T. Jones. 1996. Combining protein evolution and secondary structure. Molecular Biology and Evolution 13 666-673. [HMM for secondary structure of proteins, with phylogenies]
+
 ## Other awesome recourses
 1. [Joe Felsenstein's courses](https://felsenst.github.io/courses.html)
 2. [2016 SISG Molecular Phylogenetics Module](https://evolution.gs.washington.edu/sisg/2016/)
@@ -53,3 +67,4 @@ Sullivan, J., & Swofford, D. (1997). Are Guinea Pigs Rodents?? The Importance of
 
 [^blog]:http://treethinkers.org/update-must-read-papers-for-graduate-students/
 [^BT]:http://thomsonlab.org/people/bob-thomson/
+[^HMM]:https://evolution.gs.washington.edu/sisg/2016/2016_SISG_19_5.pdf
