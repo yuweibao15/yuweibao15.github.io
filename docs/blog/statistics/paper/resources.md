@@ -98,6 +98,7 @@ METROPOLIS, N., A.W. ROSENBLUTH, M.N. ROSENBLUTH, A.H. TELLER, and E. TELLER. 19
 5. [Paul O. Lewis’ Primer on Phylogenetics](http://phyloseminar.org/)
 6. [Paul O. Lewis' grad-level Phylogenetics class](https://plewis.github.io/phylogenetics2022/)
 7. [Jeffrey L. Thorne's grad-level Bioinformatics II class](https://brcwebportal.cos.ncsu.edu/thorne/bioinf2.html)
+8. [Bayesian Inference notes with R examples](https://vioshyvo.github.io/Bayesian_inference/)
 
 [^blog]:http://treethinkers.org/update-must-read-papers-for-graduate-students/
 [^BT]:http://thomsonlab.org/people/bob-thomson/
