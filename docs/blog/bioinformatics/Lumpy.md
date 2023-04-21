@@ -93,6 +93,7 @@ Remember to do `chmod +x scripts/pairend_distro.py`
 lumpy \
     -mw 4 \
     -tt 0 \
+    -x exclude.bed \
     -pe id:sample,bam_file:sample.discordants.bam,histo_file:sample.lib1.histo,mean:500,stdev:50,read_length:101,min_non_overlap:101,discordant_z:5,back_distance:10,weight:1,min_mapping_threshold:20 \
     -sr id:sample,bam_file:sample.splitters.bam,back_distance:10,weight:1,min_mapping_threshold:20 \
     > sample.vcf
@@ -120,10 +121,32 @@ lumpy \
                 weight:<sample weight>,
                 min_clip:<minimum clip length>,
                 read_group:<string>
+-x      exclude file bed file
 ```
 :::
 
-## Understand output
+### Part I Post-processing
+SVTyper [^svTyper] can call genotypes on LUMPY output VCF files using a Bayesian maximum likelihood algorithm.
+```sh
+svtyper \      
+    -B sample.bam \
+    -S sample.splitters.bam \
+    -i sample.vcf
+    > sample.gt.vcf
+```
+:::warning Notice
+When suing svTyper (v0.7.1), there will be a warning:
+Warning: --split_bam (-S) is deprecated
+:::
+Instead, we shall follow the instructions on [^svTyper]
+```sh
+svtyper \
+    -i sv.vcf \
+    -B sample.bam \
+    -l sample.bam.json \
+    > sv.gt.vcf
+```
+### Understand output
 Lumpy output a vcf file. Here is an example output:
 ```js
 ##fileformat=VCFv4.2
@@ -173,3 +196,4 @@ Lumpy output a vcf file. Here is an example output:
 
 [^github]:https://github.com/arq5x/lumpy-sv
 [^gatk_readgroup]:https://gatk.broadinstitute.org/hc/en-us/articles/360035890671-Read-groups
+[^svTyper]:https://github.com/hall-lab/svtyper
