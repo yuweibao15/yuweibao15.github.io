@@ -46,7 +46,8 @@ category:
 - [Basic shell scripting](bioinformatics/shell_scripting.md)
 #### Python
 - [Python scipy.integrate for numerical integration](coding/Python/integration.md)
-
+#### Java
+- [IntellJ: Java IDEA](coding/Java/IntelliJ.md)
 ### Format
 - [Enhanced styles](bioinformatics/styles.md)
 
