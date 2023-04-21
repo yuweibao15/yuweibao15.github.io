@@ -68,7 +68,26 @@ It works. `docker` won another score in my heart. Let's move on.
 ## Usage
 ```sh
 svtools [-h] [--version] [--support] subcommand ...
+
+svtools vcfpaste [-h] -f <FILE> [-m <VCF>] [-t <DIR>] [-q]
+
 ```
+
+## Use svTools to created a panel of normals (PON)
+```sh
+# 1. Prepare vcf files
+tabix sample.vcf
+# 2. Merge normal VCF files:
+svtools vcfpaste sample1.vcf.gz sample2.vcf.gz sample3.vcf.gz -o merged_normals.vcf
+# 3. Create a PON using the merged VCF file
+svtools lsort merged_normals.vcf -o sorted_merged_normals.vcf
+svtools lmerge sorted_merged_normals.vcf -i 50 -d 0.5 -o PON.vcf
+# 4. Filter your tumor sample VCF file using the PON:
+svtools afreq PON.vcf tumor_sample.vcf -o filtered_tumor_sample.vcf
+```
+:::tip Parameters
+Here, -i 50 sets the minimum number of supporting evidence (like paired-end reads or split reads) for a variant to be included in the PON, and -d 0.5 sets the minimum allelic fraction for a variant to be included. You can adjust these parameters according to your needs. This command will create a PON file named PON.vcf.
+:::
 
 ## SVTyper
 `SVTyper` can compute genotype of structural variants based on breakpoint depth.
