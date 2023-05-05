@@ -26,6 +26,7 @@ category:
 - [freebayes: Bayesian genetic variant detector](bioinformatics/freebayes.md)
 - [SomaticSniper: SNVs and short Indel caller](bioinformatics/SomaticSniper.md)
 - [Strelka: SNVs and short Indel caller](bioinformatics/Strelka.md)
+- [RTG Tools: compare vcf](bioinformatics/rtgTools.md)
 
 **II. Structural variants (SV)**
 #### Tools
@@ -34,6 +35,7 @@ category:
 - [svtools: comprehensive utilities for SV](bioinformatics/svtools.md)
 - [novoBreak: a structural variant breakpoint detection tool](bioinformatics/novoBreak.md)
 - [svParser: a tool to deal with SV output vcf](bioinformatics/svParser.md)
+- [Manta: SV caller](bioinformatics/Manta.md)
 
 ### Toolbox
 - [SRA: Download data from NCBI](bioinformatics/SRA.md)
