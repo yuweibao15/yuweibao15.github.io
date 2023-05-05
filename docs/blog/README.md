@@ -36,6 +36,8 @@ category:
 - [novoBreak: a structural variant breakpoint detection tool](bioinformatics/novoBreak.md)
 - [svParser: a tool to deal with SV output vcf](bioinformatics/svParser.md)
 - [Manta: SV caller](bioinformatics/Manta.md)
+- [GRIDSS2: SV caller](bioinformatics/GRIDSS2.md)
+- [SURVIVOR: merge SVs](bioinformatics/survivor.md)
 
 ### Toolbox
 - [SRA: Download data from NCBI](bioinformatics/SRA.md)
