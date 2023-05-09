@@ -21,11 +21,22 @@ cd SURVIVOR/Debug
 make
 ```
 
-## 
+## Usage
 It is a common practice to use multiple callers for one sample [^wiki]
 First, we collect all files that we want to merge in a file. You might want to consider sorting the vcf files prior to merging.
+
+Prepare input files either by
+
 ```sh
 ls *vcf > sample_files
+```
+
+or create a file `vcf_files_list.txt`, which contains
+
+```sh
+/path/to/caller1_output.vcf
+/path/to/caller2_output.vcf
+/path/to/caller3_output.vcf
 ```
 
 Then use `SURVIVOR` to obtain a call set. Using the parameters suggested by this paper [^paper]:
@@ -33,6 +44,7 @@ Then use `SURVIVOR` to obtain a call set. Using the parameters suggested by this
 Consensus somatic SVs from multiple somatic SV callsets were generated using “merge” function of SURVIVOR (version: 1.0.7) with the parameters “max distance between breakpoints = 1000,” “Minimum number of supporting caller = 2,” and “Minimum size of SVs to be taken into account = 50.”
 
 ```sh
+# ./SURVIVOR merge vcf_files_list.txt max_distance_sameSV minimum_num_calls max_distance_breakpoint merged_sv.vcf
 ./SURVIVOR merge sample_files 1000 2 1 1 0 50 sample_merged.vcf
 ```
 :::tip Parameters
