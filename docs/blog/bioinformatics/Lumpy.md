@@ -194,6 +194,33 @@ Lumpy output a vcf file. Here is an example output:
 ```
 :::
 
+## LUMPY Express
+:::tip Requirements
+Samtools (0.1.18+) (htslib.org/)
+SAMBLASTER (0.1.19+) (github repo)
+Python 2.7 (python.org/) with pysam (0.8.3+) and NumPy (1.8.1+)
+sambamba (gihub repo)
+gawk (GNU project)
+:::
+
+## Conda environment
+```sh
+conda create --name py27_lumpy python=2.7
+```
+
+## Sambamba
+Compiling for Linux
+```sh
+conda activate py27_lumpy
+conda install -c bioconda sambamba
+```
+
+## gawk
+```sh
+sudo apt-get install gawk
+```
+
 [^github]:https://github.com/arq5x/lumpy-sv
 [^gatk_readgroup]:https://gatk.broadinstitute.org/hc/en-us/articles/360035890671-Read-groups
 [^svTyper]:https://github.com/hall-lab/svtyper
+[^sambamba]:https://github.com/biod/sambamba
