@@ -38,6 +38,7 @@ category:
 - [Manta: SV caller](bioinformatics/Manta.md)
 - [GRIDSS2: SV caller](bioinformatics/GRIDSS2.md)
 - [SURVIVOR: merge SVs](bioinformatics/survivor.md)
+- [gGnome: post-visualization tool for SV](bioinformatics/gGnome.md)
 
 ### Toolbox
 - [SRA: Download data from NCBI](bioinformatics/SRA.md)
