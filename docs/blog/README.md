@@ -27,6 +27,7 @@ category:
 - [SomaticSniper: SNVs and short Indel caller](bioinformatics/SomaticSniper.md)
 - [Strelka: SNVs and short Indel caller](bioinformatics/Strelka.md)
 - [RTG Tools: compare vcf](bioinformatics/rtgTools.md)
+- [Control_FreeC: calculate tumor purity](bioinformatics/Control_FreeC.md)
 
 **II. Structural variants (SV)**
 #### Tools

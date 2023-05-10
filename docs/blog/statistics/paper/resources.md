@@ -102,6 +102,8 @@ METROPOLIS, N., A.W. ROSENBLUTH, M.N. ROSENBLUTH, A.H. TELLER, and E. TELLER. 19
 9. [fiveMinuteStats](https://stephens999.github.io/fiveMinuteStats/index.html)
 10. [Blog: The Bayesian kitchen](http://bayesiancook.blogspot.com/)
 11. [Book: Statistical Rethinking-A Bayesian Course with Examples in R and Stan](https://civil.colorado.edu/~balajir/CVEN6833/bayes-resources/RM-StatRethink-Bayes.pdf)
+12. [Introduction to Computational Molecular Biology: Molecular Evolution](https://evolution.gs.washington.edu/gs541/2010/)
+    Note: [Felsenstrin starts teaching Likelihood at 31'30](https://evolution.gs.washington.edu/gs541/2010/20100420.mp3) 
 
 [^blog]:http://treethinkers.org/update-must-read-papers-for-graduate-students/
 [^BT]:http://thomsonlab.org/people/bob-thomson/
