@@ -28,6 +28,7 @@ category:
 - [Strelka: SNVs and short Indel caller](bioinformatics/Strelka.md)
 - [RTG Tools: compare vcf](bioinformatics/rtgTools.md)
 - [Control_FreeC: calculate tumor purity](bioinformatics/Control_FreeC.md)
+- [readtagger: tag reads using bams](bioinformatics/readtagger.md)
 
 **II. Structural variants (SV)**
 #### Tools
@@ -68,6 +69,7 @@ category:
 ### Research related papers
 - [Statistical phylogenetics study resources](statistics/paper/resources.md)
 - [2020Ji - Gradients Do Grow on Trees: A Linear-Time O(N)-Dimensional Gradient for Statistical Phylogenetics](statistics/paper/2020Ji_Gradients.md)
+- [2023Fourment - Automatic differentiation is no panacea for phylogenetic gradient computation](statistics/paper/AD_gradient.md)
 
 ## Tulane footprint
 - [Tulane Courses](Tulane/classes.md)
