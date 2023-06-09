@@ -105,6 +105,12 @@ METROPOLIS, N., A.W. ROSENBLUTH, M.N. ROSENBLUTH, A.H. TELLER, and E. TELLER. 19
 12. [Introduction to Computational Molecular Biology: Molecular Evolution](https://evolution.gs.washington.edu/gs541/2010/)
     Note: [Felsenstrin starts teaching Likelihood at 31'30](https://evolution.gs.washington.edu/gs541/2010/20100420.mp3) 
 
+
+## Resources related to HMC
+
+1. [Book Chapter: MCMC using Hamiltonian dynamics by Radford M. Neal](https://arxiv.org/abs/1206.1901)
+2. [Book: A Conceptual Introduction to Hamiltonian Monte Carlo by Michael Betancourt](https://arxiv.org/pdf/1701.02434.pdf)
+
 [^blog]:http://treethinkers.org/update-must-read-papers-for-graduate-students/
 [^BT]:http://thomsonlab.org/people/bob-thomson/
 [^HMM]:https://evolution.gs.washington.edu/sisg/2016/2016_SISG_19_5.pdf
