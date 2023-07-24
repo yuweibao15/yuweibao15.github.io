@@ -11,7 +11,7 @@ tag:
 
 ## Must read papers for graduate students
 
-The list was organized and posted on [^blog] by Bob Thomson [^BT] in 2015: 
+**This list was organized and posted on [^blog] by Bob Thomson [^BT] in 2015**: 
 
 Bull, J. J., Huelsenbeck, J. P., Cunningham, C. W., Swofford, D. L., & Waddel, P. J. (1993). Partitioning and combining data in phylogenetic analysis. Systematic Biology, 42(3), 384–397.
 
@@ -44,7 +44,7 @@ Pauling, L., & Zuckerkandl, E. (1963). Chemical paleogenetics. Acta Chem. Scand,
 Sullivan, J., & Swofford, D. (1997). Are Guinea Pigs Rodents?? The Importance of Adequate Models in Molecular Phylogenetics. Journal of Mammalian Evolution, 4, 77–86.
 
 ## Papers related to HMM
-It is recommended by Joe Felsenstein [^HMM] in 2016:
+**The following were recommended by by Joe Felsenstein [^HMM] in 2016:**
 
 Yang, Z. 1994. Maximum-likelihood estimation of phylogeny from DNA sequences when substitution rates differ over sites. Molecular Biology and Evolution 10: 1396-1401. [Use of gamma distribution of rate variation in
 ML phylogenies]
@@ -58,7 +58,7 @@ Felsenstein, J. and G. A. Churchill. 1996. A Hidden Markov Model approach to var
 Thorne, J. L., N. Goldman, and D. T. Jones. 1996. Combining protein evolution and secondary structure. Molecular Biology and Evolution 13 666-673. [HMM for secondary structure of proteins, with phylogenies]
 
 ## Papers related to Bayesian model comparison
-It is recommended by Jeffrey Thorne [^bayesian] in 2016:
+**The following were recommended by Jeffrey Thorne [^bayesian] in 2016:**
 
 Posterior Predictive Inference in Phylogenetics: J.P. Bollback. 2002. Molecular Biology and Evolution. 19:1171-1180
 
@@ -74,12 +74,12 @@ Choosing among partition models in Bayesian phylogenetics. Y. Fan, R. Wu, M-H Ch
 
 Markov chain Monte Carlo without likelihoods. P. Marjoram, J. Molitor, V. Plagnol, and S. Tavare. 2003. PNAS USA. 100(26): 15324-15328. 
 
-H. Jereys. The Theory of Probability (3e). Oxford (1961); p. 432
+H. Jeffreys. The Theory of Probability (3e). Oxford (1961); p. 432
 
 M.A. Beaumont, W. Zhang, D.J. Balding. Approximate Bayesian Computation in Population Genetics. 2002. Genetics 162:2025-2035.
 
 ## Papers related to Markov Chain Monte Carlo
-It is recommended by Jeffery Thorne [^MCMC]
+**The following were recommended by Jeffery Thorne [^MCMC]**
 
 CARLIN, B.P., and T.A. LOUIS. 1996. Bayes and Empirical Bayes Methods for Data Analysis. Chapman and Hall, London.
 
@@ -89,22 +89,34 @@ Hastings WK (1970) Monte Carlo sampling methods using Markov chains and their ap
 
 METROPOLIS, N., A.W. ROSENBLUTH, M.N. ROSENBLUTH, A.H. TELLER, and E. TELLER. 1953. Equations of state calculations by fast computing machines. J. Chem. Phys. 21: 1087–1092.
 
+**The following were recommended by Matthew Stephens and Eric C. Anderson**
+### Examples of importance sampling in genetics:
+1. [Griffiths and Tavare (1994)](https://pubmed.ncbi.nlm.nih.gov/7800710/)
+2. [Matt Stephens and Peter Donnelly (2000)](https://doi.org/10.1111/1467-9868.00254)
+3. [Anderson and Garza (2006)](https://doi.org/10.1534/genetics.105.048074)
+   
+### Papers related to $MC^3$
+[Metropolis coupled MCMC (Geyer 1991)](https://www.jstor.org/stable/2246094)
+
 
 ## Other awesome recourses
 1. [Joe Felsenstein's courses](https://felsenst.github.io/courses.html)
-2. [2016 SISG Molecular Phylogenetics Module](https://evolution.gs.washington.edu/sisg/2016/)
-3. [Duke Bayesian Methods Class](http://www2.stat.duke.edu/~rcs46/bayes17.html)
-4. [2019 Bodega Applied Phylogenetics Workshop](http://treethinkers.org/2019-bodega-applied-phylogenetics-workshop-schedule/)
-5. [Paul O. Lewis’ Primer on Phylogenetics](http://phyloseminar.org/)
-6. [Paul O. Lewis' grad-level Phylogenetics class](https://plewis.github.io/phylogenetics2022/)
-7. [Jeffrey L. Thorne's grad-level Bioinformatics II class](https://brcwebportal.cos.ncsu.edu/thorne/bioinf2.html)
-8. [Bayesian Inference notes with R examples](https://vioshyvo.github.io/Bayesian_inference/)
-9. [fiveMinuteStats](https://stephens999.github.io/fiveMinuteStats/index.html)
-10. [Blog: The Bayesian kitchen](http://bayesiancook.blogspot.com/)
-11. [Book: Statistical Rethinking-A Bayesian Course with Examples in R and Stan](https://civil.colorado.edu/~balajir/CVEN6833/bayes-resources/RM-StatRethink-Bayes.pdf)
-12. [Introduction to Computational Molecular Biology: Molecular Evolution](https://evolution.gs.washington.edu/gs541/2010/)
-    Note: [Felsenstrin starts teaching Likelihood at 31'30](https://evolution.gs.washington.edu/gs541/2010/20100420.mp3) 
-
+2. [2016 SISG Module 19: Molecular Phylogenetics (Instructors: Mark Holder, Jeffery Thorne, and Joe Felsenstein)](https://evolution.gs.washington.edu/sisg/2016/)
+3. [Bayesian Methods Class by Rebecca C. Steorts at Duke University](http://www2.stat.duke.edu/~rcs46/bayes17.html)
+4. [2019 Bodega Applied Phylogenetics Workshop by UC Davis & Bodega Marine Laboratory](http://treethinkers.org/2019-bodega-applied-phylogenetics-workshop-schedule/)
+5. [Phylogenetics Seminars organized by Frederick "Erick" Matsen](http://phyloseminar.org/)
+6. [Phylogenetics discussion forum organized by Frederick "Erick" Matsen](http://www.phylobabble.org/)
+7. [Paul O. Lewis' grad-level Phylogenetics class](https://plewis.github.io/phylogenetics2022/)
+8. [Jeffrey L. Thorne's grad-level Bioinformatics II class](https://brcwebportal.cos.ncsu.edu/thorne/bioinf2.html)
+9. [Bayesian Inference notes with R examples by Ville Hyvönen & Topias Tolonen](https://vioshyvo.github.io/Bayesian_inference/)
+10. [Matthew Stephens's **fiveMinuteStats**: basic statistics concepts with practical R codes](https://stephens999.github.io/fiveMinuteStats/index.html)
+11. [Nicolas Lartillot's blog: The Bayesian kitchen](http://bayesiancook.blogspot.com/)
+12. [Book: Statistical Rethinking-A Bayesian Course with Examples in R and Stan by Richard McElreath](https://civil.colorado.edu/~balajir/CVEN6833/bayes-resources/RM-StatRethink-Bayes.pdf)
+13. [Introduction to Computational Molecular Biology: Molecular Evolution at University of Washington in 2010](https://evolution.gs.washington.edu/gs541/2010/)
+    Note: [Dr. Felsenstein starts teaching Likelihood at 31'30](https://evolution.gs.washington.edu/gs541/2010/20100420.mp3) 
+14. [Eric C. Anderson's Handbook on Practical Computing and Bioinformatics for Conservation and Evolutionary Genomics](https://eriqande.github.io/eca-bioinf-handbook/)
+15. [Eric C. Anderson's MCMC simulations/visualizations demo](https://github.com/eriqande/sisg-mcmc-opengl-computer-demos)
+    Note: [Eric C. Anderson's SISG MCMC OpenGL Demos tutorial on Youtube](https://www.youtube.com/watch?v=a8gjem86Uf4)
 
 ## Resources related to HMC
 
