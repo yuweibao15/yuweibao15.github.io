@@ -57,6 +57,8 @@ category:
 - [IntellJ: Java IDEA](coding/Java/IntelliJ.md)
 ### Format
 - [Enhanced styles](bioinformatics/styles.md)
+### Tools
+- [Git clone from a private repository](bioinformatics/git_clone.md)
 
 
 ## Statistics
