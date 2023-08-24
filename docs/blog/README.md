@@ -8,6 +8,9 @@ category:
 
 ## Bioinformatics
 
+### Notes
+- [Dr. Eric C. Anderson's Bioinformatics Handbook](bioinformatics/study_notes_EricA_handbook.md)
+
 ### Variant calling related
 **I. Single nucleotide variants and short insertions/deletions (SNVs and INDELs)**
 #### GATK
