@@ -33,6 +33,7 @@ category:
 - [RTG Tools: compare vcf](bioinformatics/rtgTools.md)
 - [Control_FreeC: calculate tumor purity](bioinformatics/Control_FreeC.md)
 - [readtagger: tag reads using bams](bioinformatics/readtagger.md)
+- [SomaticSeq: combine multiple SNV calls](bioinformatics/SomaticSeq.md)
 
 **II. Structural variants (SV)**
 #### Tools
@@ -66,12 +67,15 @@ category:
 
 
 ## Statistics
+### Theory
 - [Detailed Balance Condition](statistics/detailed_balance_condition.md)
 - [Stochastic Processes](statistics/stochastic_processes.md)
 - [Stochastic HW2 Graph](statistics/stochastic_HW2.md)
 - [Gibss sampler](statistics/gibbs_sampler.md)
 - [Kingman’s coalescent](statistics/felsenstein_coalescent.md)
-
+### Tools
+- [BEAST: Bayesian Evolutionary Analysis Sampling Trees](statistics/BEAST.md)
+- [RavBayes: Bayesian phylogenetic inference model](statistics/RavBayes.md)
 ### Research related papers
 - [Statistical phylogenetics study resources](statistics/paper/resources.md)
 - [2020Ji - Gradients Do Grow on Trees: A Linear-Time O(N)-Dimensional Gradient for Statistical Phylogenetics](statistics/paper/2020Ji_Gradients.md)
