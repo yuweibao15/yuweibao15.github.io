@@ -258,14 +258,17 @@ B:Lib-1\tPU:HY75HDSX2.1.AAGACCGT+CAATCGAC resources/genome.fasta results/trimmed
    -  `vcflib vcf2fasta` takes a phased VCF file and a fasta file and spits out sequence.
 
 :::warning In progress...
-Continue with 17.8 Visualization of Genomic Data
+Continue with 19.4.1.5
 :::
 
 ## Steps in a typical analysis:
-1. Preparation:
+0. Preparation:
    - Download reference genome from NCBI
    - Use `samtools faidx` to create index of `reference_genome.fasta`
-2. Alignment: align reads from a sequencing machine to a reference genome.
+1. Alignment: align reads from a sequencing machine to a reference genome.
+2. Variant calling: use tools to identify genetic variation and the genotypes of individuals at different location in the genome.
+3. Analysis
+
 ### Highlights:
 1. The “paired-end” sequencing: the sequences come in pairs from different ends of the same fragment.
 ## Remarks:
