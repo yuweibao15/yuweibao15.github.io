@@ -13,7 +13,7 @@ category:
 ## Leadership
 Time | Role | Description
 ---|---|---
-Fall 2023 | [Statistics and Probability Research Seminar](https://sse.tulane.edu/research-seminars-probability-and-statistics) | Co-organize departmental seminars inviting speakers from other universities.
+Fall 2023 | [Statistics and Probability Research Seminar Co-organizer](https://sse.tulane.edu/research-seminars-probability-and-statistics) | Help organize departmental seminars inviting speakers from other universities.
 2022-2023 | [Association for Women in Mathematics (AWM)](https://awm-math.org/) Tulane Chapter Secretary | Help organize departmental faculty talks.
 2020-2021 | [American Mathematical Society (AMS)](http://www.ams.org/home/page) Tulane Chapter Secretary  | Help build [Tulane Math Grduate Student Chapters Homepage](https://sites.google.com/view/tulanemath/home)
 2019-2020, 2018-2019| [Math Club](https://mcm.edu/club/math-club/) President at McMurry University | Bring the club back with more math puzzles, coding exercises, and fun.
