@@ -15,11 +15,7 @@ I am currently working on statistical phylogenetics research under [Dr. Xiang Ji
 
 ## Most recent activities
 :::tip Exciting news!
-I am grateful that I have been selected as the [2023 Summer Institute in Statistical Genetics (SISG) scholarship](https://si.biostat.washington.edu/) recipient at University of Washington. 
-
-Thanks so much to my advisor Dr. Ji for all the support!
-
-Looking forward to traveling to Seattle in July 2023 to study and meet awesome people!
+I had wonderful experiences attending [2023 Summer Institute in Statistical Genetics (SISG)](https://si.biostat.washington.edu/) at University of Washington during the summer in Seattle. 
 :::
 
 ## Research talks
