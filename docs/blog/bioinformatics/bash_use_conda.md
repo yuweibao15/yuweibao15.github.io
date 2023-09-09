@@ -21,7 +21,7 @@ samclip --version
 where my base conda doesn't have the software `samclip`, but the `py38_GR` conda environment has the software.
 
 I see the error:
-<pre>
+```js
 CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
 To initialize your shell, run
 
@@ -38,7 +38,7 @@ Currently supported shells are:
 See 'conda init --help' for more information and options.
 
 IMPORTANT: You may need to close and restart your shell after running 'conda init'.
-</pre>
+```
 
 ## Solution [^ref]
 Firstly, find the path to anaconda
