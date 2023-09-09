@@ -56,6 +56,7 @@ category:
 #### Linux
 - [Linux basics](bioinformatics/linux.md)
 - [Basic shell scripting](bioinformatics/shell_scripting.md)
+- [Activate conda in a bash script](bioinformatics/bash_use_conda.md)
 #### Python
 - [Python scipy.integrate for numerical integration](coding/Python/integration.md)
 #### Java
