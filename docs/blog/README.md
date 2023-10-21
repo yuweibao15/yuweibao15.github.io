@@ -47,6 +47,9 @@ category:
 - [SURVIVOR: merge SVs](bioinformatics/survivor.md)
 - [gGnome: post-visualization tool for SV](bioinformatics/gGnome.md)
 
+### Transposable elements (TEs)
+- [dnaPipeTE](bioinformatics/dnaPipeTE.md)
+
 ### Toolbox
 - [SRA: Download data from NCBI](bioinformatics/SRA.md)
 - [Cypress: Tulane HPC](bioinformatics/Cypress.md)
@@ -81,6 +84,8 @@ category:
 - [Statistical phylogenetics study resources](statistics/paper/resources.md)
 - [2020Ji - Gradients Do Grow on Trees: A Linear-Time O(N)-Dimensional Gradient for Statistical Phylogenetics](statistics/paper/2020Ji_Gradients.md)
 - [2023Fourment - Automatic differentiation is no panacea for phylogenetic gradient computation](statistics/paper/AD_gradient.md)
+### Data type
+- [Time Series Data](statistics/time_series.md)
 
 ## Tulane footprint
 - [Tulane Courses](Tulane/classes.md)
