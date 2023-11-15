@@ -12,6 +12,7 @@ category:
 - [Dr. Eric C. Anderson's Bioinformatics Handbook](bioinformatics/study_notes_EricA_handbook.md)
 
 ### Variant calling related
+- [Prepare reference_genome.fasta](bioinformatics/prepare_fasta.md)
 **I. Single nucleotide variants and short insertions/deletions (SNVs and INDELs)**
 #### GATK
 - [GATK Data Pre-processing](bioinformatics/GATK_preprocessing.md)
@@ -46,6 +47,15 @@ category:
 - [GRIDSS2: SV caller](bioinformatics/GRIDSS2.md)
 - [SURVIVOR: merge SVs](bioinformatics/survivor.md)
 - [gGnome: post-visualization tool for SV](bioinformatics/gGnome.md)
+
+### Other data type
+#### Long-read DNA
+- [pbsv: identify SV using long-read DNA](bioinformatics/pbsv.md)
+- [deTEct: identify TE using long-read DNA](bioinformatics/deTEct.md)
+#### 16s RNA
+- [16sRNA: microbiome classification and abundance](bioinformatics/16s_rRNA.md)
+#### Protein
+- [DiaNN](bioinformatics/DiaNN.md)
 
 ### Transposable elements (TEs)
 - [dnaPipeTE](bioinformatics/dnaPipeTE.md)
