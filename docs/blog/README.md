@@ -6,6 +6,9 @@ category:
   - Study notes
 ---
 
+## Tricks make life easier
+- [Set up passwordless ssh login to remote server](bioinformatics/server_ssh_keys.md)
+
 ## Bioinformatics
 
 ### Notes
@@ -13,6 +16,7 @@ category:
 
 ### Variant calling related
 - [Prepare reference_genome.fasta](bioinformatics/prepare_fasta.md)
+
 **I. Single nucleotide variants and short insertions/deletions (SNVs and INDELs)**
 #### GATK
 - [GATK Data Pre-processing](bioinformatics/GATK_preprocessing.md)
@@ -94,8 +98,9 @@ category:
 - [Statistical phylogenetics study resources](statistics/paper/resources.md)
 - [2020Ji - Gradients Do Grow on Trees: A Linear-Time O(N)-Dimensional Gradient for Statistical Phylogenetics](statistics/paper/2020Ji_Gradients.md)
 - [2023Fourment - Automatic differentiation is no panacea for phylogenetic gradient computation](statistics/paper/AD_gradient.md)
-### Data type
-- [Time Series Data](statistics/time_series.md)
+### Learning interests
+- [Time Series](statistics/time_series.md)
+- [Survival Analysis](statistics/survival_analysis.md)
 
 ## Tulane footprint
 - [Tulane Courses](Tulane/classes.md)
