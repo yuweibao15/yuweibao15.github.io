@@ -52,6 +52,10 @@ category:
 - [SURVIVOR: merge SVs](bioinformatics/survivor.md)
 - [gGnome: post-visualization tool for SV](bioinformatics/gGnome.md)
 
+**III. Copy number variation (CNV)**
+#### Tools
+- [CNVkit: CNV caller](bioinformatics/CNVkit.md)
+
 ### Other data type
 #### Long-read DNA
 - [pbsv: identify SV using long-read DNA](bioinformatics/pbsv.md)
