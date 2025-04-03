@@ -55,6 +55,7 @@ category:
 **III. Copy number variation (CNV)**
 #### Tools
 - [CNVkit: CNV caller](bioinformatics/CNVkit.md)
+- [CNVnator: CNV caller](bioinformatics/CNVnator.md)
 
 ### Other data type
 #### Long-read DNA
@@ -102,9 +103,15 @@ category:
 - [Statistical phylogenetics study resources](statistics/paper/resources.md)
 - [2020Ji - Gradients Do Grow on Trees: A Linear-Time O(N)-Dimensional Gradient for Statistical Phylogenetics](statistics/paper/2020Ji_Gradients.md)
 - [2023Fourment - Automatic differentiation is no panacea for phylogenetic gradient computation](statistics/paper/AD_gradient.md)
-### Learning interests
+
+## Learning interests
 - [Time Series](statistics/time_series.md)
 - [Survival Analysis](statistics/survival_analysis.md)
+- [Bayesian Hierarchical Models](scratch_surface/BHM.md)
+### Clinical trials
+- [Clinical trials basics](pharma/phases.md)
+- [Clinical trials abbreviation dictionary](pharma/shortcut.md)
+- [Analysis Data Model (ADaM)](pharma/learn_ADaM.md)
 
 ## Tulane footprint
 - [Tulane Courses](Tulane/classes.md)

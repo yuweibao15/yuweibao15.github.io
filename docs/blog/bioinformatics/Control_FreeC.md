@@ -27,9 +27,9 @@ Download a test dataset for HCC1143 and HCC1143-BL (from Chiang et al., 2009):
 mkdir test_FREEC
 cd test_FREEC
 wget http://xfer.curie.fr/get/l4nQtrIsGmo/test.zip
-PATH_TO/FREEC-11.6/src/freec -conf myConfig.txt -sample sample.bam -control control.bam
+PATH_TO/FREEC-11.6/src/freec -conf myßConfig.txt -sample sample.bam -control control.bam
 # Or
-# PATH_TO/FREEC-11.6/src/freec -conf myConfig.txt (if BAM files are provided directly in the config file)
+# PATH_TO/FREEC-11.6/src/f (if BAM files are provided directly in the config file)
 
 	/PATH_TO_FREEC/freec -conf config_ctrl.txt
 
@@ -48,5 +48,21 @@ cut -f1,2 your_file.fasta.fai | grep -w -E '(2R|2L|3R|3L|X|Y|4)' > filtered_chro
 
 ```
 
+## Work with something that is not human
+
+Produce chrom length file:
+
+```sh
+wget https://github.com/BoevaLab/FREEC/tree/master/scripts/get_fasta_lengths.pl
+perl get_fasta_lengths.pl MyGenome.fa
+```
+
+
+MY OWN
+```sh
+perl /home/ybao2/GitFolders/FREEC-11.6/scripts/get_fasta_lengths.pl /media/XLStorage/ybao2/RefGenome/dmel-all-chromosome-r6.39.fasta
+
+# result: /home/ybao2/GitFolders/FREEC-11.6/scripts/res-dmel-all-chromosome-r6.39.fasta
+```
 
 [^tutorial]:http://boevalab.inf.ethz.ch/FREEC/tutorial.html

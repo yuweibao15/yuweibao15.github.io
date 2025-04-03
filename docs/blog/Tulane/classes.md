@@ -29,7 +29,11 @@ Semester | Term | Course Title | Instructor
 2022 Fall | MATH-7030 | Stochastic Processes | Dr. Michelle Lacey
 2022 Fall | MATH-7980 | Bayesian Phylogenetics (reading course) | Dr. Xiang Ji
 2023 Spring | MATH-7770 | Modern Methods in Statistical Sampling | Dr. Nathan E. Glatt-Holtz
+2024 Fall | CMPS 6340 | Deep Learning | Dr. Jihun Hamm
+2024 Fall | BIOS 7300 | Survival Data Analysis | Dr. Wan Tang
+2024 Fall | EPID 6340 | Clinical Trials and Translational Research Methods | Dr. Kirsten S. Dorans
 
+I also earned one-credit from [Biopharmaceutical Summer Academy 2024](https://events.stat.uconn.edu/SIP2024/summer_course.html) from the University of Connecticut  taught by Dr. Dooti Roy and Dr. Xiaofei Bai.
 ## Exams
 Here are the qualifying exams I have passed:
 Date | Exam Name

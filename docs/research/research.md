@@ -12,14 +12,16 @@ category:
 ## Research interests:
 - Statistics
 - Bioinformatics
-- Data Science
+- Data Science & Machine Learning
 - Mathematical Modeling
 ## With passion and dedication:
 I am currently working on statistical phylogenetics research under [Dr. Xiang Ji](https://sse.tulane.edu/math/faculty/ji) as well as doing bioinformatics collaboration research with [Deng lab](https://medicine.tulane.edu/deng-lab) under [Dr. Wu-Min Deng](https://medicine.tulane.edu/departments/biochemistry-molecular-biology-tulane-cancer-center-tulane-center-aging/all-faculty/wu)
 
+From January to June 2025, I am working as a Co-op in Computational Immunology group at Moderna, where I focus on applying statistical and machine learning models to improve vaccine safety profile and biomarker discovery.
+
 ## Most recent activities
 :::tip Currently...
-I am actively searching for a summer internship working as a statistician, biostatistician, or data scientist in industries.
+I am actively searching for a full time position working as a statistician, biostatistician, or data scientist in industries.
 :::
 
 ## Research talks
