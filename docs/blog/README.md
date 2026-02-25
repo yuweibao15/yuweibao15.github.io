@@ -11,6 +11,9 @@ category:
 
 ## Bioinformatics
 
+### Data Analysis
+- [DNA Methylation](bioinformatics/DNA_methylation.md)
+
 ### Notes
 - [Dr. Eric C. Anderson's Bioinformatics Handbook](bioinformatics/study_notes_EricA_handbook.md)
 
