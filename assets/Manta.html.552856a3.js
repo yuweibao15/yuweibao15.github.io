@@ -1,0 +1,21 @@
+import{_ as t}from"./_plugin-vue_export-helper.cdc0426e.js";import{o,c as i,b as e,d as s,f as l,e as a,r}from"./app.1eb191a1.js";const c={},d=l(`<h2 id="manta" tabindex="-1"><a class="header-anchor" href="#manta" aria-hidden="true">#</a> Manta <sup class="footnote-ref"><a href="#footnote1">[1]</a><a class="footnote-anchor" id="footnote-ref1"></a></sup></h2><p>Manta calls structural variants (SVs) and indels from mapped paired-end sequencing reads.</p><h3 id="installation" tabindex="-1"><a class="header-anchor" href="#installation" aria-hidden="true">#</a> Installation</h3><p>Follow the instruction for different operating system <sup class="footnote-ref"><a href="#footnote2">[2]</a><a class="footnote-anchor" id="footnote-ref2"></a></sup></p><h3 id="usage" tabindex="-1"><a class="header-anchor" href="#usage" aria-hidden="true">#</a> Usage</h3><p>Somatic configuration examples Tumor Normal Analysis -- Example Configuration:</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token variable">\${MANTA_INSTALL_PATH}</span>/bin/configManta.py <span class="token punctuation">\\</span>
+<span class="token parameter variable">--normalBam</span> HCC1187BL.cram <span class="token punctuation">\\</span>
+<span class="token parameter variable">--tumorBam</span> HCC1187C.cram <span class="token punctuation">\\</span>
+<span class="token parameter variable">--referenceFasta</span> hg19.fa <span class="token punctuation">\\</span>
+<span class="token parameter variable">--runDir</span> <span class="token variable">\${MANTA_ANALYSIS_PATH}</span>
+
+<span class="token variable">\${MANTA_ANALYSIS_PATH}</span>/runWorkflow.py
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="output" tabindex="-1"><a class="header-anchor" href="#output" aria-hidden="true">#</a> Output</h3><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>\u251C\u2500\u2500 Sample_name
+\u2502   \u251C\u2500\u2500 results
+\u2502   \u2502   \u251C\u2500\u2500 evidence
+\u2502   \u2502   \u251C\u2500\u2500 stats
+\u2502   \u2502   \u251C\u2500\u2500 variants
+\u2502   \u2502   \u2502   \u251C\u2500\u2500candidateSmallIndels.vcf.gz
+\u2502   \u2502   \u2502   \u251C\u2500\u2500candidateSV.vcf.gz
+\u2502   \u2502   \u2502   \u251C\u2500\u2500diploidSV.vcf.gz
+\u2502   \u2502   \u2502   \u251C\u2500\u2500somaticSV.vcf.gz
+\u2502   \u251C\u2500\u2500 runWorkflow.py.config.pickle
+\u2502   \u251C\u2500\u2500 workflow.error.log.txt
+\u2502   \u251C\u2500\u2500 workflow.exitcode.txt
+\u2502   \u251C\u2500\u2500 workflow.warning.log.txt
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><hr class="footnotes-sep">`,10),u={class:"footnotes"},m={class:"footnotes-list"},p={id:"footnote1",class:"footnote-item"},f={href:"https://github.com/Illumina/manta",target:"_blank",rel:"noopener noreferrer"},v=a("https://github.com/Illumina/manta"),h=a(),b=e("a",{href:"#footnote-ref1",class:"footnote-backref"},"\u21A9\uFE0E",-1),_={id:"footnote2",class:"footnote-item"},g={href:"https://github.com/Illumina/manta/blob/master/docs/userGuide/installation.md#linux",target:"_blank",rel:"noopener noreferrer"},k=a("https://github.com/Illumina/manta/blob/master/docs/userGuide/installation.md#linux"),x=a(),A=e("a",{href:"#footnote-ref2",class:"footnote-backref"},"\u21A9\uFE0E",-1);function S(I,N){const n=r("ExternalLinkIcon");return o(),i("div",null,[d,e("section",u,[e("ol",m,[e("li",p,[e("p",null,[e("a",f,[v,s(n)]),h,b])]),e("li",_,[e("p",null,[e("a",g,[k,s(n)]),x,A])])])])])}const M=t(c,[["render",S],["__file","Manta.html.vue"]]);export{M as default};
