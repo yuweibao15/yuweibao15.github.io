@@ -110,6 +110,7 @@ category:
 ## Learning interests
 - [Time Series](statistics/time_series.md)
 - [Survival Analysis](statistics/survival_analysis.md)
+- [A/B Testing](statistics/AB_testing.md)
 - [Bayesian Hierarchical Models](scratch_surface/BHM.md)
 ### Clinical trials
 - [Clinical trials basics](pharma/phases.md)
