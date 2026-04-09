@@ -9,6 +9,17 @@ tag:
   - Definition
 ---
 
+## Punchline
+
+For time-to-event data:
+
+1. Kaplan-Meier (KM) curves — visualize survival probability over time for each group
+2. Log-rank test — test whether the curves are statistically significantly different
+3. Cox proportional hazards model — estimate the hazard ratio (HR)
+   - Check PH assumption: Schoenfeld residuals plot + log-log survival plot
+   - If violated: use Restricted Mean Survival Time (RMST) instead
+4. HR < 1 = treatment group has better survival
+
 ## Definition
 
 Survival analysis refers to a class of statistical methods for analyzing **time-to-event data**, where the outcome is the time from a defined origin (e.g., randomization) to the occurrence of a specified event (e.g., death, disease progression).
